@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans";
+  font-size: 13px;
+}
+
+.container {
+  width: 1330px;
+  display: flex;
+}
+
+.side-nav {
+  width: 50px;
+}
+
+.content {
+  width: 1280px;
+}
+
+.header {
+  display: relative;
+}
+
+.primary-nav {
+  width: 1280px;
+}
+
+.sub-nav {
+  width: 1280px;
+  display: flex;
+}
+
+.sub-nav a {
+  height: 43px;
+  padding: 0 20px;
+  line-height: 43px;
+  text-decoration: none;
+  color: #414141;
+}
+
+a.active {
+  color: #F99D1C;
+}
+
+.page-content {
+
+}
+
+.pill {
+  color: white;
+  font-size: 9px;
+  background-color: #7A7A7A;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+.arrow-down {
+  margin: 0 6px;
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #414141;
+  display: inline-block;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #DDD;
+  left: 660px;
+  top: -500px;
+  transition: 0s;
+  opacity: 0;
+}
+
+.traces-item:hover+.nav-menu {
+  opacity: 1;
+  transition-delay: 0.5s;
+  top: 105px;
+}
+
+.nav-menu:hover {
+  top: 105px;
+  opacity: 1;
+}
+
+.nav-menu a {
+  font-size: 13px;
+  line-height: 33px;
+  height: 33px;
+  text-decoration: none;
+  color: #414141;
+  padding: 0 10px;
+}
+
+.nav-menu a:hover {
+  background-color: #348DB0;
+  color: white;
+}
