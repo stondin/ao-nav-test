@@ -78,7 +78,7 @@ a.active {
 
 .traces-item:hover+.nav-menu {
   opacity: 1;
-  transition-delay: 0.5s;
+  transition-delay: 0.3s;
   top: 105px;
 }
 
